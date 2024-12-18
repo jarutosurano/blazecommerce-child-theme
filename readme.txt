@@ -12,5 +12,7 @@ The Blaze Commerce Child theme provides a tailored solution to accelerate the se
 3. Required plugins will be prompted for installation via TGMPA.
 
 == Changelog ==
+= 1.0.1 =
+* Removed the plugins directory and moved plugin files to Amazon S3, freeing up local storage and enabling faster, more scalable access to the plugins.
 = 1.0.0 =
-* Initial release with support for Twenty Twenty-Four theme.
+* Initial release with support for Twenty Twenty-Five theme.

@@ -35,7 +35,7 @@ function blz_register_required_plugins() {
         [
             'name'               => 'Blaze Commerce',
             'slug'               => 'blazecommerce-wp-plugin-main',
-            'source'             => get_stylesheet_directory() . '/plugins/blazecommerce-wp-plugin-main.zip',
+            'source'             => 'https://blazecommercechildthemeplugins.s3.us-east-2.amazonaws.com/blazecommerce-wp-plugin-main.zip',
             'required'           => true,
             'version'            => '1.5.1',
             'force_activation'   => true,
@@ -44,7 +44,7 @@ function blz_register_required_plugins() {
         [
             'name'               => 'WPGraphQL CORS',
             'slug'               => 'wp-graphql-cors',
-            'source'             => get_stylesheet_directory() . '/plugins/wp-graphql-cors.zip',
+            'source'             => 'https://blazecommercechildthemeplugins.s3.us-east-2.amazonaws.com/wp-graphql-cors.zip',
             'required'           => true,
             'version'            => '2.1',
             'force_activation'   => true,
@@ -53,7 +53,7 @@ function blz_register_required_plugins() {
         [
             'name'               => 'WooGraphQL',
             'slug'               => 'wp-graphql-woocommerce',
-            'source'             => get_stylesheet_directory() . '/plugins/wp-graphql-woocommerce.zip',
+            'source'             => 'https://blazecommercechildthemeplugins.s3.us-east-2.amazonaws.com/wp-graphql-woocommerce.zip',
             'required'           => true,
             'version'            => '0.19.0',
             'force_activation'   => true,
@@ -62,7 +62,7 @@ function blz_register_required_plugins() {
         [
             'name'               => 'WPGraphQL JWT Authentication',
             'slug'               => 'wp-graphql-jwt-authentication',
-            'source'             => get_stylesheet_directory() . '/plugins/wp-graphql-jwt-authentication.zip',
+            'source'             => 'https://blazecommercechildthemeplugins.s3.us-east-2.amazonaws.com/wp-graphql-jwt-authentication.zip',
             'required'           => true,
             'version'            => '0.7.0',
             'force_activation'   => true,
